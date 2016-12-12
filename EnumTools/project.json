@@ -1,6 +1,7 @@
 ﻿{
   "supports": {},
   "dependencies": {
+    "NuGet.CommandLine": "3.4.3",
     "SonarAnalyzer.CSharp": "1.20.1"
   },
   "frameworks": {

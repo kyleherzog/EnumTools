@@ -6,8 +6,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EnumTools")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Enum Tools")]
+[assembly: AssemblyDescription("Portable class library that provides utilities and extensions to add functionality  to enums, including accessing DisplayAttribute properties and finding minimum and maximum values.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("EnumTools")]
