@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Enum Tools")]
 [assembly: AssemblyDescription("Portable class library that provides utilities and extensions to add functionality  to enums, including accessing DisplayAttribute properties and finding minimum and maximum values.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Kyle Herzog")]
 [assembly: AssemblyProduct("EnumTools")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
