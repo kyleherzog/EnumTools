@@ -1,8 +1,8 @@
 # Enum Tools
 [![Build status](https://ci.appveyor.com/api/projects/status/dcquffxl5ua3065i?svg=true)](https://ci.appveyor.com/project/kyleherzog/enumtools)
 
-This library is available from [NuGet.org](https://nuget.org)
-or get the [CI build feed](https://ci.appveyor.com/nuget/enumtools).
+This library is available from [NuGet.org](https://www.nuget.org/packages/EnumTools/)
+or download from the [CI build feed](https://ci.appveyor.com/nuget/enumtools).
 
 --------------------------
 
