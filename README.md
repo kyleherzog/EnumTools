@@ -1,5 +1,5 @@
 # Enum Tools
-
+[![Build status](https://ci.appveyor.com/api/projects/status/dcquffxl5ua3065i?svg=true)](https://ci.appveyor.com/project/kyleherzog/enumtools)
 --------------------------
 
 Portable class library that provides tools and extensions to add functionality to enums.
