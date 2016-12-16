@@ -16,5 +16,12 @@ on NuGet.org.
 - [x] Extensions for DisplayAttribute Values
 - [x] Aggregate DisplayAttribute Group property methods
 
+## 1.1
+
+**2016-12-16**
+
+- [x] (Try)ParseShortName support 
+
+
  
  

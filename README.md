@@ -14,6 +14,8 @@ See the [changelog](CHANGELOG.md) for changes and roadmap.
 
 - Access to DisplayAttribute properties
 - Find minimum/maximum values
+- Querying Enums for DisplayAttribute GroupName details
+- Parsing strings to enum value by ShortName
 
 ### DisplayAttribute Properties Access
 A number of extension methods are provided that allow access to the DisplayAttribute properties for enum values including the following:
@@ -28,7 +30,12 @@ Those extension methods prefixed with "To" will default to the ToString value if
 ### Minimum/Maximum Values
 Access to the minimum and maximum values of a given enum can be found using the `Enum<T>` class.
 
+### Group Name Methods
 `Enum<T>` also provides the InfoByGroup and GroupNames methods to get aggregate details about DisplayAttribute Group properties.
+
+### Parsing Short Names
+String values that match an enum value's DisplayAttribute ShortName property can be parsed into their matching enum value using the TryParseShortName and ParseShortName methods of `Enum<T>`.
+
 
 ## License
 [Apache 2.0](LICENSE)
