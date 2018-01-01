@@ -6,7 +6,7 @@ or download from the [CI build feed](https://ci.appveyor.com/nuget/enumtools).
 
 --------------------------
 
-Portable class library that provides tools and extensions to add functionality to enums.
+A .NET Standard class library that provides tools and extensions to add functionality to enums.
 
 See the [changelog](CHANGELOG.md) for changes and roadmap.
 
