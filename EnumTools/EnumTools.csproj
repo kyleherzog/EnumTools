@@ -10,6 +10,7 @@
     <RepositoryUrl>https://github.com/kyleherzog/EnumTools</RepositoryUrl>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>Kyle Herzog</Authors>
+    <Description>A .NET Standard library that provides utilities and extensions to add functionality to enums, including accessing DisplayAttribute properties and finding minimum and maximum values.</Description>
   </PropertyGroup>
 
   <ItemGroup>
