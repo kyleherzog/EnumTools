@@ -8,7 +8,6 @@
     <PackageVersion>3.0</PackageVersion>
     <ApplicationVersion>3.0</ApplicationVersion>
     <ApplicationRevision>0</ApplicationRevision>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/kyleherzog/EnumTools/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/kyleherzog/EnumTools</PackageProjectUrl>
     <PackageTags>Enum Enumeration DisplayAttribute Minimum Maximum</PackageTags>
     <RepositoryUrl>https://github.com/kyleherzog/EnumTools</RepositoryUrl>
