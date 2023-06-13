@@ -1,18 +1,28 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <TargetFramework>netstandard1.1</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>11.0</LangVersion>
-    <PackageVersion>2.0.0</PackageVersion>
+    <PackageVersion>3.0</PackageVersion>
+    <ApplicationVersion>3.0</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
     <PackageLicenseUrl>https://raw.githubusercontent.com/kyleherzog/EnumTools/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/kyleherzog/EnumTools</PackageProjectUrl>
     <PackageTags>Enum Enumeration DisplayAttribute Minimum Maximum</PackageTags>
     <RepositoryUrl>https://github.com/kyleherzog/EnumTools</RepositoryUrl>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>Kyle Herzog</Authors>
     <Description>A .NET Standard library that provides utilities and extensions to add functionality to enums, including accessing DisplayAttribute properties and finding minimum and maximum values.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
