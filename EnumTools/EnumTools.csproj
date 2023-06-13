@@ -5,7 +5,7 @@
     <TargetFramework>netstandard1.1</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>11.0</LangVersion>
-    <PackageVersion>3.0</PackageVersion>
+    <Version>3.0</Version>
     <ApplicationVersion>3.0</ApplicationVersion>
     <ApplicationRevision>0</ApplicationRevision>
     <PackageProjectUrl>https://github.com/kyleherzog/EnumTools</PackageProjectUrl>
