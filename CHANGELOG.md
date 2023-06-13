@@ -7,6 +7,13 @@
 These are the changes to each version that has been released
 on NuGet.org.
 
+## 3.0
+**2023-6-12**
+
+- [x] ToDescription renamed to Description and now returns null if not explicitly specified
+- [x] Fix bug in GetOrder method when no Display attribute present
+- [x] Updated System.ComponentModel.Annotations to v 5.0.0
+
 ## 2.0
 **2018-1-1**
 
