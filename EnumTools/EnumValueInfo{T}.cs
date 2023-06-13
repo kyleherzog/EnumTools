@@ -5,17 +5,17 @@ using System.Reflection;
 
 namespace EnumTools;
 
-public class EnumInfo<T> where T : struct, IFormattable, IComparable
+public class EnumValueInfo<T> where T : struct, IFormattable, IComparable
 {
     private DisplayAttribute? display;
 
-    public EnumInfo(string valueName)
+    public EnumValueInfo(string valueName)
     {
         DefaultName = valueName;
         Value = (T)Enum.Parse(typeof(T), valueName);
     }
 
-    public EnumInfo(T value)
+    public EnumValueInfo(T value)
     {
         DefaultName = value.ToString();
         Value = value;

@@ -87,19 +87,19 @@ public static class Enum<T> where T: struct, IComparable, IFormattable
         }
     }
 
-    public static IEnumerable<EnumInfo<T>> AllInfo()
+    public static IEnumerable<EnumValueInfo<T>> AllInfo()
     {
         AssertIsEnum();
         var names = Enum.GetNames(typeof(T));
-        var results = new List<EnumInfo<T>>();
+        var results = new List<EnumValueInfo<T>>();
         foreach (var name in names)
         {
-            results.Add(new EnumInfo<T>(name));
+            results.Add(new EnumValueInfo<T>(name));
         }
         return results;
     }
 
-    public static IEnumerable<EnumInfo<T>> InfoByGroup(string? groupName)
+    public static IEnumerable<EnumValueInfo<T>> InfoByGroup(string? groupName)
     {
         return AllInfo().Where(i => i.GroupName == groupName);
     }
