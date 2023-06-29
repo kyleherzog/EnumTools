@@ -7,6 +7,10 @@
 These are the changes to each version that has been released
 on NuGet.org.
 
+## 3.1
+**2023-6-29**
+-[x] Added GetAutoGenerateFilter and GetAutoGenerateField methods
+
 ## 3.0
 **2023-6-13**
 

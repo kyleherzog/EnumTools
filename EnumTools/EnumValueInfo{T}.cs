@@ -21,6 +21,10 @@ public class EnumValueInfo<T> where T : struct, IFormattable, IComparable
         Value = value;
     }
 
+    public bool? AutoGenerateField => Display.GetAutoGenerateField();
+
+    public bool? AutoGenerateFilter => Display.GetAutoGenerateFilter();
+
     public string DefaultName
     {
         get;
@@ -30,7 +34,7 @@ public class EnumValueInfo<T> where T : struct, IFormattable, IComparable
     {
         get
         {
-            return Display.Description;
+            return Display.GetDescription();
         }
     }
 
@@ -67,7 +71,7 @@ public class EnumValueInfo<T> where T : struct, IFormattable, IComparable
     {
         get
         {
-            return Display.Prompt;
+            return Display.GetPrompt();
         }
     }
 
@@ -75,7 +79,7 @@ public class EnumValueInfo<T> where T : struct, IFormattable, IComparable
     {
         get
         {
-            return Display.GroupName;
+            return Display.GetGroupName();
         }
     }
 
@@ -83,7 +87,7 @@ public class EnumValueInfo<T> where T : struct, IFormattable, IComparable
     {
         get
         {
-            return Display.Name;
+            return Display.GetName();
         }
     }
 
@@ -91,7 +95,7 @@ public class EnumValueInfo<T> where T : struct, IFormattable, IComparable
     {
         get
         {
-            return Display.Name ?? DefaultName;
+            return Display.GetName() ?? DefaultName;
         }
     }
 
@@ -99,7 +103,7 @@ public class EnumValueInfo<T> where T : struct, IFormattable, IComparable
     {
         get
         {
-            return Display.ShortName;
+            return Display.GetShortName();
         }
     }
 
@@ -107,7 +111,7 @@ public class EnumValueInfo<T> where T : struct, IFormattable, IComparable
     {
         get
         {
-            return Display.ShortName ?? DefaultName;
+            return Display.GetShortName() ?? DefaultName;
         }
     }
 
