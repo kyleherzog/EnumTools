@@ -22,6 +22,9 @@ A number of extension methods are provided that allow access to the DisplayAttri
 - ToName
 - ToShortName
 - ToDescription
+- GetAutoGenerateField
+- GetAutoGenerateFilter
+- GetOrder
 - GroupName
 - Prompt
 

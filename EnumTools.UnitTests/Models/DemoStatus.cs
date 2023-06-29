@@ -4,10 +4,10 @@ namespace EnumTools.UnitTests.Models;
 
 public enum DemoStatus
 {
-    [Display(Name = "--Select a Status--")]
+    [Display(Name = "--Select a Status--", AutoGenerateField = false)]
     None = 0,
 
-    [Display(GroupName = "Open", Order = 1)]
+    [Display(GroupName = "Open", Order = 1, AutoGenerateField = true, AutoGenerateFilter = true)]
     Active = 1,
 
     [Display(Description = "Same as inactive.", GroupName = "Closed")]
@@ -19,7 +19,7 @@ public enum DemoStatus
     [Display(Description = "Not started yet.", Name = "On Deck", GroupName = "Open")]
     OnDeck = 4,
 
-    [Display(GroupName = "Closed")]
+    [Display(GroupName = "Closed", AutoGenerateFilter = false)]
     Canceled = 5,
 
     // Use this one for testing for not attribute

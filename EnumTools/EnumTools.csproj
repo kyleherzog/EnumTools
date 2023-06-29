@@ -1,12 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <TargetFramework>netstandard1.1</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>11.0</LangVersion>
-    <Version>3.0</Version>
-    <ApplicationVersion>3.0</ApplicationVersion>
+    <Version>3.1</Version>
+    <ApplicationVersion>3.1</ApplicationVersion>
     <ApplicationRevision>0</ApplicationRevision>
     <PackageProjectUrl>https://github.com/kyleherzog/EnumTools</PackageProjectUrl>
     <PackageTags>Enum Enumeration DisplayAttribute Minimum Maximum</PackageTags>
@@ -19,11 +18,9 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
-
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="SonarAnalyzer.CSharp" Version="9.3.0.71466">
       <PrivateAssets>all</PrivateAssets>
@@ -31,5 +28,4 @@
     </PackageReference>
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
   </ItemGroup>
-
 </Project>
