@@ -9,7 +9,7 @@ on NuGet.org.
 
 ## 4.0
 **2024-11-21**
-- [x] Removed .NET Standard 1.1 support
+- [x] Removed .NET Standard 1.1 support in favor of .NET Standard 2.0
 
 ## 3.1
 **2023-6-29**
