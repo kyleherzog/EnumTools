@@ -7,9 +7,13 @@
 These are the changes to each version that has been released
 on NuGet.org.
 
+## 4.0
+**2024-11-21**
+- [x] Removed .NET Standard 1.1 support
+
 ## 3.1
 **2023-6-29**
--[x] Added GetAutoGenerateFilter and GetAutoGenerateField methods
+- [x] Added GetAutoGenerateFilter and GetAutoGenerateField methods
 
 ## 3.0
 **2023-6-13**
